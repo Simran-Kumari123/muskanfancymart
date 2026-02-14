@@ -1,7 +1,7 @@
 import { serve } from "inngest/next";
 import { inngest } from "@/config/inngest";
 
-mport {
+import {
   syncUserCreation,
   syncUserUpdation,
   syncUserDeletion,
