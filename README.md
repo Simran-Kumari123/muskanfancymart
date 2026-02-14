@@ -1,69 +1,94 @@
-# QuickCart - A simple eCommerce website
+🛍️ Muskan Fancy Mart – Modern eCommerce Website
 
-QuickCart is an open-source **Next.js eCommerce frontend** project.  
-It provides a modern, fast and customizable shopping UI.  
-This repo is **frontend only** – contributors can improve the design, add new pages, animations and more.
+Muskan Fancy Mart is a full-stack eCommerce web application built using Next.js, MongoDB, Clerk Authentication, and Inngest.
+It provides a modern, fast, and secure online shopping experience.
 
----
+🚀 Features
 
-## Features
+🔐 Authentication using Clerk
 
--   Built with **Next.js + Tailwind CSS**
--   Responsive design
--   Reusable components
--   Customizable layouts and colors
--   Open for contributions (UI/UX, animations, themes, layouts etc.)
+🛒 Add to Cart functionality
 
----
+👤 User profile management
 
-## Getting Started
+🔄 Real-time user sync with Inngest
 
-1. Clone the repo
+📦 MongoDB database integration
 
-    ```bash
-    git clone https://github.com/GreatStackDev/QuickCart.git
-    cd QuickCart
-    ```
+📱 Fully responsive design
 
-2. Install dependencies
+🎨 Styled with Tailwind CSS
 
-    ```bash
-    npm install
-    ```
+⚡ Built with Next.js App Router
 
-3. Run locally
+🛠️ Tech Stack
 
-    ```bash
-    npm run dev
-    ```
+Next.js 14
 
----
+Tailwind CSS
 
-## Contributing
+MongoDB + Mongoose
 
-We welcome all kinds of contributions! You can:
+Clerk Authentication
 
-- Create new pages
-- Improve layouts
-- Add animations and transitions
-- Enhance responsiveness
-- Refactor components
-- Suggest new UI/UX ideas
-- Add themes or color variations
-- Introduce accessibility improvements
-- Add filtering/search features
-- Improve documentation
+Inngest (Event-driven backend)
 
-Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+Node.js
 
----
 
-## License
+📂 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/Simran-Kumari123/muskanfancymart.git
+cd muskanfancymart
 
-This project is licensed under the **MIT License**.
+2️⃣ Install dependencies
+npm install
 
----
+3️⃣ Setup Environment Variables
 
-## 🌟 Contributors
+Create a .env.local file and add:
 
-Thanks to everyone who contributes to **QuickCart**!
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_secret
+MONGODB_URI=your_mongodb_uri
+
+4️⃣ Run the development server
+npm run dev
+
+
+Open:
+
+http://localhost:3000
+
+🌍 Deployment
+
+You can deploy easily on:
+
+Vercel
+
+Render
+
+Railway
+
+📌 Future Improvements
+
+🛍️ Product filtering & search
+
+💳 Payment gateway integration
+
+📊 Admin dashboard
+
+📦 Order tracking
+
+❤️ Wishlist feature
+
+👩‍💻 Author
+
+Developed with ❤️ by Simran Kumari
+
+GitHub:
+👉 https://github.com/Simran-Kumari123
+
+📜 License
+
+This project is licensed under the MIT License.
